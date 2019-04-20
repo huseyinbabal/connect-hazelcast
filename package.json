@@ -4,7 +4,7 @@
   "description": "Hazelcast session store for Connect and Express",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout 10000 test/*.js"
+    "test": "mocha --timeout 100000 test/*.js"
   },
   "repository": {
     "type": "git",
