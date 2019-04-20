@@ -1,0 +1,35 @@
+{
+  "name": "connect-hazelcast",
+  "version": "1.0.0",
+  "description": "Hazelcast session store for Connect and Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 10000 test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huseyinbabal/connect-hazelcast.git"
+  },
+  "keywords": [
+    "hazelcast-cloud",
+    "hazelcast",
+    "connect",
+    "express"
+  ],
+  "author": "Huseyin BABAL <huseyinbabal88@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huseyinbabal/connect-hazelcast/issues"
+  },
+  "homepage": "https://github.com/huseyinbabal/connect-hazelcast#readme",
+  "dependencies": {
+    "hazelcast-client": "^0.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "express-session": "^1.16.1",
+    "mocha": "^6.1.4",
+    "should": "^13.2.3",
+    "testcontainers": "^1.1.10"
+  }
+}
