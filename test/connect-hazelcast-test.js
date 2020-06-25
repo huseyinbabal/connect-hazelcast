@@ -17,7 +17,7 @@ describe('HazelcastStore', () => {
 
     before(async () => {
         console.info("Starting Hazelcast Cluster...");
-        container = await new GenericContainer("hazelcast/hazelcast")
+        container = await new GenericContainer("hazelcast/hazelcast", "3.12.8")
             .withExposedPorts(5701)
             .start();
         config.networkConfig.addresses.push(`127.0.0.1:${container.getMappedPort(5701)}`);
