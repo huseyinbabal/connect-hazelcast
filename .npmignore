@@ -1,0 +1,6 @@
+.idea/
+.vscode/
+test/
+.editorconfig
+*.iml
+*.log
