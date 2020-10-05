@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+test/
+.editorconfig
+.eslintrc.json
+*.iml
+*.log
