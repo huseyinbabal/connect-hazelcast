@@ -1,3 +1,4 @@
+/* eslint-env mocha */
 'use strict';
 
 const Mocha = require('mocha');
@@ -31,6 +32,10 @@ describe('HazelcastStore', () => {
         console.info('Stopping Hazelcast Cluster...');
         await hazelcastClient.shutdown();
         await container.stop();
+    });
+
+    it('constructor: should throw when client is not provided', () => {
+        expect(() => new HazelcastStore({})).to.throw(Error);
     });
 
     it('set: should store session', (done) => {
