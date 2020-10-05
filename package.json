@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/huseyinbabal/connect-hazelcast#readme",
   "dependencies": {
-    "hazelcast-client": "^3.12.1"
+    "hazelcast-client": "~4.0.0"
   },
   "devDependencies": {
     "chai": "^4.2.0",
